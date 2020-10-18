@@ -1,3 +1,5 @@
+# Personal Portfolio
+
 ## Setup Notes
 
 1. All components ready to go (including imports)
@@ -34,3 +36,7 @@ const Component = () => {
       },
     },
 ```
+
+## Credits
+
+[Gatsby Udemy Tutorial Starter Code](https://github.com/john-smilga/starter-project-gatsby-strapi-portfolio-2020)
