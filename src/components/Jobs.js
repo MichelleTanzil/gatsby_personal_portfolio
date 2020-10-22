@@ -11,6 +11,7 @@ const jobQuery = graphql`
         company
         date
         position
+        strapiId
         desc {
           id
           name
