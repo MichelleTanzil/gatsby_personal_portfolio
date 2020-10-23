@@ -430,14 +430,21 @@ Hero
 .hero-img {
   display: none;
 }
-.hero-info h4 {
+.hero-info .typing-titles {
   color: var(--clr-grey-5);
 }
+
 .hero-icons {
   justify-items: flex-start;
 }
 .hero .btn {
   margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 992px) {
+  .hero .typing-titles {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -454,8 +461,8 @@ Hero
     grid-template-columns: repeat(12, 1fr);
   }
 
-  .hero h4 {
-    font-size: 0.85rem;
+  .hero .typing-titles {
+    font-size: 1.75rem;
   }
   .hero-info {
     grid-row: 1/1;
@@ -468,8 +475,8 @@ Hero
   }
 }
 @media screen and (min-width: 1170px) {
-  .hero h4 {
-    font-size: 1rem;
+  .hero .typing-titles {
+    font-size: 2rem;
   }
 
   .hero-info {

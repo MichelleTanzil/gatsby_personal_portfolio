@@ -2,7 +2,8 @@ import React from "react"
 import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
-import SocialLinks from "../constants/socialLinks"
+import SocialLinks from "../../constants/socialLinks"
+import Titles from "./typewriter-title"
 
 const heroQuery = graphql`
   {
@@ -30,8 +31,7 @@ const Hero = () => {
           <div>
             <div className="underline"> </div>
             <h1>i'm michelle</h1>
-            {/* TODO: Typing effect for titles */}
-            <h4>Software Developer</h4>
+            <Titles />
             <Link to="/about" className="btn">
               About Me
             </Link>

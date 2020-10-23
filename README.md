@@ -1,5 +1,10 @@
 # Personal Portfolio
 
+## Dependencies
+
+- React Typist
+- React Typist Loop
+
 ## Setup Notes
 
 1. All components ready to go (including imports)
